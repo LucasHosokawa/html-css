@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+div.container {
+    display: grid;
+    height: 500px;
+    grid-template: 2fr 1fr 5fr 1fr / 1fr 2fr 1fr;
+}
+
+div.caixatopo {
+    background-color: yellow;
+    grid-area: 1 / 1 / 2 / 4;
+    text-align: center;
+}
+
+div.menu { 
+    background-color: aqua;
+    grid-area: 2 / 1 / 3 / 4;
+    text-align: center;
+}
+
+div.principal {
+    background-color: red;
+    grid-area: 3 / 1 / 4 / 3;
+    text-align: center;
+}
+
+div.secundario {
+    background-color: darkcyan;
+    grid-area: 3 / 3 / 4 / 4;
+    text-align: center;
+}
+
+div.rodape {
+    background-color: gray;
+    grid-area: 4 / 1 / 5 / 4;
+    text-align: center;
+}
